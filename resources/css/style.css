@@ -13,7 +13,7 @@ h1{
   font-size: 50px;
 }
 
-#download{
+.download{
   color: aquamarine;
   font-size: 16px;
 }
@@ -24,8 +24,13 @@ h2{
   font-family: "Verdana";
 }
 
-#description{
+#description,
+#copyright{
   font-family: "Verdana";
   font-size: 21px;
   color: gray;
+}
+
+#copyright{
+  text-align: right;
 }
